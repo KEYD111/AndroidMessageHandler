@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/DC_Fragemnt_ShowMain"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/DC_LinearLayoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/DC_Fragemnt_ShowMain"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/DC_Button1_Fragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FragmentTest1" />
+
+        <Button
+            android:id="@+id/DC_Button2_Fragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FragmentTest2" />
+
+        <Button
+            android:id="@+id/DC_Button_ModelOfObserverCOPYFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="观察者模式别人的,发数据给Frag1" />
+
+        <Button
+            android:id="@+id/DC_Button_ModelOfObserverCOPYFrag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="观察者模式别人的，发数据给Frag2" />
+
+        <Button
+            android:id="@+id/DC_Button_ModelOfObserverSelf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="观察者模式自己的" />
+
+        <Button
+            android:id="@+id/DC_Button_Act2ActIntent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Act2Act" />
+
+        <Button
+            android:id="@+id/DC_Button_Act2FragBundleFrag1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Act2Frag" />
+        <Button
+            android:id="@+id/DC_Button_Act2FragBundleFrag2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Act2Frag" />
+
+        <Button
+            android:id="@+id/DC_Button_BroadCast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广播方式" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
